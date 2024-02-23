@@ -47,7 +47,7 @@ namespace RimitNetCore.Controllers
 
                 ConfirmHead DEBIT_CONFIRM_HEAD = new ConfirmHead()
                 {
-                    api = "confirmCredit",
+                    api = "confirmDebit",
                     apiVersion = "V1",
                     timeStamp = DateTime.UtcNow.AddMinutes(330).ToString("yyyy-MM-dd hh:mm:ss tt"),
                     auth = new AuthHeader()
@@ -64,9 +64,9 @@ namespace RimitNetCore.Controllers
                 JsonElement? DECRYPTED_DATA = Crypto.DecryptRimitData(REQUEST_DATA, ENCRYPTION_KEY);
 
                 // ERROR RESPONSE IF DECRYPTION FAILED
-                if (DECRYPTED_DATA != null)
+                if (DECRYPTED_DATA == null)
                 {
-                    ErrorResponse response = new ErrorResponse("depositAmount",
+                    ErrorResponse response = new ErrorResponse("debitAmount",
                        CommonCodes.RESULT_CODE_DECRYPTION_FAILED,
                        CommonCodes.STATUS_ERROR,
                        CommonCodes.RESULT_MESSAGE_E2008);

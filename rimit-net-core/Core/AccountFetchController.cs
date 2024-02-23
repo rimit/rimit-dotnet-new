@@ -111,7 +111,7 @@ namespace RimitNetCore.Controllers
                 /*  */
                 /*  */
                 /* VERIFY THE USER */
-                /* MANAGE SCOPE FOR ERRORS (Refer - https://doc.rimit.co/account/account-fetch#response-code) */
+                /* MANAGE SCOPE FOR ERRORS (Refer - https://developer.rimit.in/account/account-fetch#response-code) */
                 /*  */
                 /*  */
 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rimit-net-core", "rimit-net-core\rimit-net-core.csproj", "{DCB8F10E-12C6-4A0C-BE62-3B69A880AB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCB8F10E-12C6-4A0C-BE62-3B69A880AB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB8F10E-12C6-4A0C-BE62-3B69A880AB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB8F10E-12C6-4A0C-BE62-3B69A880AB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB8F10E-12C6-4A0C-BE62-3B69A880AB05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {732F438D-EF1A-49F6-B782-BB8C747AFDB2}
+	EndGlobalSection
+EndGlobal

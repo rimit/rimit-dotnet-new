@@ -106,7 +106,7 @@ namespace RimitNetCore.Controllers
 
                 string USER_MOBILE = DECRYPTED_DATA.Value.GetProperty("content").GetProperty("data").GetProperty("mobile").ToString();
                 string USER_CC = DECRYPTED_DATA.Value.GetProperty("content").GetProperty("data").GetProperty("country_code").ToString();
-                string DOB = DECRYPTED_DATA.Value.GetProperty("content").GetProperty("data").GetProperty("dob").GetString();
+                string DOB = DECRYPTED_DATA.Value.GetProperty("content").GetProperty("data").GetProperty("dob").ToString();
 
                 /*  */
                 /*  */

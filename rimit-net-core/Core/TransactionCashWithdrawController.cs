@@ -105,7 +105,7 @@ namespace RimitNetCore.Controllers
                 /*  */
                 /*  */
                 /* VERIFY THE USER */
-                /* MANAGE SCOPE FOR FAILED TRANSACTIONS (Refer - https://doc.rimit.co/transaction-debit/confirm-debit#result-code) */
+                /* MANAGE SCOPE FOR FAILED TRANSACTIONS (Refer - https://developer.rimit.in/transaction-debit/confirm-debit#result-code) */
                 /* VERIFY THE USER ACCOUNT */
                 /* VERIFY THE USER ACCOUNT BALANCE AVAILABILITY */
                 /* DEBIT USER ACCOUNT WITH txn_amount */

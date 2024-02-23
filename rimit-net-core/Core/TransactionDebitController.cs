@@ -42,7 +42,7 @@ namespace RimitNetCore.Controllers
                 const string AUTH_API_ID = "6360b30096066b82e9697996";
                 const string AUTH_API_KEY = "b54996b0-59a8-11ed-911b-87fca52fd2dc";
 
-                // CREDIT_CONFIRM REQUEST URL
+                // DEBIT_CONFIRM REQUEST URL
                 string DEBIT_CONFIRM_URL = Config.BASE_URL + "/transaction/confirmDebit";
 
                 ConfirmHead DEBIT_CONFIRM_HEAD = new ConfirmHead()
@@ -108,7 +108,7 @@ namespace RimitNetCore.Controllers
                 /* MANAGE SCOPE FOR FAILED TRANSACTIONS (Refer - https://developer.rimit.in/transaction-debit/confirm-debit#result-code) */
                 /* VERIFY THE USER ACCOUNT */
                 /* VERIFY THE USER ACCOUNT BALANCE AVAILABILITY */
-                /* CREDIT USER ACCOUNT WITH txn_amount */
+                /* DEBIT USER ACCOUNT WITH txn_amount */
                 /*  */
                 /*  */
 
@@ -118,7 +118,7 @@ namespace RimitNetCore.Controllers
                 /*  */
 
                 /*  */
-                /* ASSIGN LATEST ACCOUNT_BALANCE AFTER CREDITING THE TRANSACTION_AMOUNT */
+                /* ASSIGN LATEST ACCOUNT_BALANCE AFTER DEBITING THE TRANSACTION_AMOUNT */
                 string ACCOUNT_BALANCE = "";
                 /*  */
 

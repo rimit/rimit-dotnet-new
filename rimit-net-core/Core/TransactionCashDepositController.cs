@@ -64,7 +64,7 @@ namespace RimitNetCore.Controllers
                 JsonElement? DECRYPTED_DATA = Crypto.DecryptRimitData(REQUEST_DATA, ENCRYPTION_KEY);
 
                 // ERROR RESPONSE IF DECRYPTION FAILED
-                if (DECRYPTED_DATA != null)
+                if (DECRYPTED_DATA == null)
                 {
                     ErrorResponse response = new ErrorResponse("depositAmount",
                        CommonCodes.RESULT_CODE_DECRYPTION_FAILED,
